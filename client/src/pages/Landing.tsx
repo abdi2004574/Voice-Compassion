@@ -12,7 +12,7 @@ export default function Landing() {
             <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center">
               <Mic className="text-primary w-6 h-6" />
             </div>
-            <h1 className="text-2xl font-bold font-display tracking-tight text-foreground">VoiceTherapy</h1>
+            <h1 className="text-2xl font-bold font-display tracking-tight text-foreground">Loved One PsyCare</h1>
           </div>
           <div className="flex items-center gap-4">
             <Button variant="ghost" className="hidden md:flex font-medium">About</Button>
@@ -38,7 +38,7 @@ export default function Landing() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary text-secondary-foreground text-sm font-semibold mb-8">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              AI-Powered Voice Therapy
+              Loved One PsyCare | Founder: Sanam Anjum
             </div>
             <h1 className="text-5xl md:text-7xl font-bold font-display leading-[1.1] mb-6 text-foreground">
               Find comfort in <br />

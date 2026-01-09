@@ -34,7 +34,7 @@ export function Layout({ children }: LayoutProps) {
     <div className="min-h-screen bg-background flex flex-col md:flex-row font-sans">
       {/* Mobile Header */}
       <div className="md:hidden flex items-center justify-between p-4 bg-white border-b border-border">
-        <h1 className="text-xl font-bold font-display text-primary">VoiceTherapy</h1>
+        <h1 className="text-xl font-bold font-display text-primary">Loved One PsyCare</h1>
         <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
           {mobileMenuOpen ? <X /> : <Menu />}
         </Button>
@@ -47,10 +47,10 @@ export function Layout({ children }: LayoutProps) {
       )}>
         <div className="p-6 md:p-8 border-b border-border/50">
           <h1 className="text-2xl font-bold font-display bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-            VoiceTherapy
+            Loved One PsyCare
           </h1>
           <p className="text-xs text-muted-foreground mt-2 font-medium tracking-wide uppercase">
-            Emotional Wellness
+            Emotional Wellness<br/>Founder: Sanam Anjum
           </p>
         </div>
 
